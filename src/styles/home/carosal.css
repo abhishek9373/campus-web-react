@@ -1,0 +1,23 @@
+.carosel-container {
+  margin: auto;
+  margin-top: 10px;
+  width: 83vw;
+}
+
+@media (max-width: 700px) {
+  .carosel-container {
+    width: 95vw;
+  }
+}
+
+.d-block {
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 3px;
+  height: 55vh;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.carosel-text {
+  color: var(--secondary);
+}

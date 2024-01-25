@@ -1,0 +1,39 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background-color: var(--tertiary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  padding-top: 15px;
+  margin-right: 3rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
+  cursor: pointer;
+  color: white;
+}
+
+.service-image {
+  height: 60px;
+}
+
+.service-card:last-child {
+  margin-right: 0rem;
+}
+
+.service-name {
+  margin-top: 15px;
+}
+
+#left-arrow {
+  margin-right: 1.7rem;
+}

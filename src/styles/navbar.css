@@ -1,0 +1,33 @@
+.navbar {
+  background-color: var(--secondary);
+  height: 40px;
+  padding-bottom: 50px;
+  color: var(--text);
+  z-index: 999;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu:first-child {
+  float: left;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#user-profile-photo {
+  height: 16px;
+  margin-right: 8px;
+}
+.user-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 50px;
+  font-size: 16px;
+  font-weight: 500;
+}

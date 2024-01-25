@@ -1,0 +1,86 @@
+#services-heading-2 {
+  display: flex;
+  width: 72vw;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: 600;
+}
+
+.househub-card {
+  display: flex;
+  margin-bottom: 1rem;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  color: var(--text);
+}
+
+.househub-icon {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.house-info {
+  max-width: 170px;
+  font-size: 12px;
+  padding: 15px;
+  background-color: var(--tertiary);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.stars {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-and-furnished {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.furnished {
+  padding: 6px;
+  font-size: 10px;
+  font-weight: 400;
+  background-color: var(--dark);
+  color: white;
+  border-radius: 15px;
+}
+
+.boys-girls-tag {
+  font-size: 12px;
+  color: var(--dark);
+  letter-spacing: 0.1ch;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+.owner-name {
+  font-size: 12px;
+  color: var(--dark);
+  font-weight: 500;
+  margin-top: 2px;
+}

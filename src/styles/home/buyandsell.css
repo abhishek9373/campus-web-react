@@ -1,0 +1,23 @@
+.user-info-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 6px;
+  padding-top: 10px;
+}
+
+#user-name {
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.info-section {
+  padding: 10px;
+}
+
+.star-rating{
+  padding-bottom: 3px;
+  margin-left: 8px;
+}

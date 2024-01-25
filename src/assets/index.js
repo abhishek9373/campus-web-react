@@ -1,8 +1,19 @@
+// househub
 export const househubIcon = require('../assets/icons/home.svg').default
 export const foodhubIcon = require('../assets/icons/thali.svg').default
 export const buyandsellIcon = require('../assets/icons/buy-sell.svg').default
 export const flatImage1 = require('../assets/images/flat-1.svg').default
 export const flatImage2 = require('../assets/images/flat2.svg').default
+export const househubHeroImage = require('../assets/images/househub-hero.svg').default
+export const sortDown = require('../assets/icons/sort-down.png')
+export const sortUp = require('../assets/icons/sort-up.png')
+export const scrollDown = require('../assets/icons/scroll-down.png')
+export const bed = require('../assets/icons/bed.png')
+export const bath = require('../assets/icons/bath.png')
+export const car = require('../assets/icons/parking.png')
+export const share = require('../assets/icons/share.png')
+export const create = require('../assets/icons/create.png')
+export const list = require('../assets/icons/list.png')
 
 // foodhub
 export const thaliImage1 = require('../assets/images/dal-bati-thali.svg').default

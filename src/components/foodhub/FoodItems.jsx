@@ -1,7 +1,10 @@
-import React from "react";
-import '../../styles/foodhub/fooditems.css'
+import React, { useEffect } from "react";
+import "../../styles/foodhub/fooditems.css";
 import { searchIcon } from "../../assets";
 export default function FoodItems() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div class="food-items-container">

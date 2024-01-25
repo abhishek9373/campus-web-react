@@ -37,3 +37,33 @@
 #left-arrow {
   margin-right: 1.7rem;
 }
+
+/*  */
+.sticky {
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+}
+
+.service-card-sticky {
+  background-color: var(--tertiary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  padding-top: 15px;
+  margin-right: 1rem;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
+  cursor: pointer;
+  color: white;
+}
+
+.service-image-sticky {
+  height: 24px;
+}
+
+.service-name-sticky{
+  font-size: 12px;
+}

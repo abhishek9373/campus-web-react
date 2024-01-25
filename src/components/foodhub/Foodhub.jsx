@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FoodItems from "./FoodItems";
 import RecommendedFood from "./Recommendedfood";
 import Foodlisting from "./Foodlisting";

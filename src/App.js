@@ -5,6 +5,9 @@ import Navbar from "./shared/components/Navbar";
 import Foodhub from "./components/foodhub/Foodhub";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Househub from "./components/househub/Househub";
+import Login from "./components/authentication/Login";
+import Onboard from "./components/authentication/Onboard";
+import Pagenotfound from "./shared/components/Pagenotfound";
 // import { useForm } from "react-hook-form"
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/foodhub" element={<Foodhub />} />
           <Route path="/househub" element={<Househub />} />
+          <Route path="/user/login" element={<Login />} />
+          <Route path="/user/onboard" element={<Onboard />} />
+          <Route path="*" element={<Pagenotfound />} />
         </Routes>
         <Footer />
       </BrowserRouter>

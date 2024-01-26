@@ -34,3 +34,5 @@ export const searchIcon = require('../assets/icons/search.svg').default
 export const campus1Image = require('../assets/images/campus1.jpg')
 export const campus2Image = require('../assets/images/campus2.jpg')
 export const campus3Image = require('../assets/images/campus3.jpg')
+
+export const error404Icon = require('../assets/icons/404-error.png')

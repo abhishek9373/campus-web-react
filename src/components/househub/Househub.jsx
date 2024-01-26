@@ -14,7 +14,7 @@ import {
 import "../../styles/househub/main.css";
 export default function Househub() {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
   }, []);
   return (
     <>
@@ -62,7 +62,7 @@ export default function Househub() {
               />
             </p>
             <p>
-              <img src={scrollDown} alt="" id="scroll-down" onClick={()=>window.scrollTo(0,0)}/>
+              <img src={scrollDown} alt="" id="scroll-down" onClick={()=>window.scrollTo({ left: 0, top: 0, behavior: "smooth" })}/>
             </p>
             <p className="property-date-up">
               Property Price

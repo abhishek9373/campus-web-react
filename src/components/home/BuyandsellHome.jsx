@@ -1,5 +1,5 @@
 import React from "react";
-import { bedImage, bookImage, laptopImage, userIcon } from "../../assets";
+import { bedImage, bookImage, laptopImage, profileIcon, userIcon } from "../../assets";
 import "../../styles/home/buyandsell.css";
 import StarRatings from "react-star-ratings";
 
@@ -19,7 +19,7 @@ export default function Buyandsell() {
           <div className="info-section">
             <div className="user-info-section">
               <p>
-                <img src={userIcon} alt="" />
+                <img src={profileIcon} alt="" />
               </p>
               <p id="user-name">John Smith</p>
               <p className="star-rating">
@@ -54,7 +54,7 @@ export default function Buyandsell() {
           <div className="info-section">
             <div className="user-info-section">
               <p>
-                <img src={userIcon} alt="" id="profile-icon" />
+                <img src={profileIcon} alt="" id="profile-icon" />
               </p>
               <p id="user-name">John Smith</p>
               <p className="star-rating">
@@ -89,7 +89,7 @@ export default function Buyandsell() {
           <div className="info-section">
             <div className="user-info-section">
               <p>
-                <img src={userIcon} alt="" id="profile-icon" />
+                <img src={profileIcon} alt="" id="profile-icon" />
               </p>
               <p id="user-name">John Smith</p>
               <p className="star-rating">

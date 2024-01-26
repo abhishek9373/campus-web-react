@@ -43,6 +43,7 @@
   position: fixed;
   top: 10px;
   z-index: 999;
+  transition: all 2s ease;
 }
 
 .service-card-sticky {
@@ -58,6 +59,10 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
   cursor: pointer;
   color: white;
+}
+
+.service-card-sticky:hover{
+  transform: scale(0.9);
 }
 
 .service-image-sticky {

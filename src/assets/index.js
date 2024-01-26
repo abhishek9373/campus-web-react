@@ -14,6 +14,7 @@ export const car = require('../assets/icons/parking.png')
 export const share = require('../assets/icons/share.png')
 export const create = require('../assets/icons/create.png')
 export const list = require('../assets/icons/list.png')
+export const userIcon = require('../assets/icons/user.png')
 
 // foodhub
 export const thaliImage1 = require('../assets/images/dal-bati-thali.svg').default
@@ -24,7 +25,7 @@ export const thaliImage3 = require('../assets/images/thali3.svg').default
 export const laptopImage = require('../assets/images/laptop.svg').default
 export const bookImage = require('../assets/images/book.svg').default
 export const bedImage = require('../assets/images/bed.svg').default
-export const userIcon = require('../assets/images/user-icon2.svg').default
+export const profileIcon = require('../assets/images/user-icon2.svg').default
 
 // search icon
 export const searchIcon = require('../assets/icons/search.svg').default

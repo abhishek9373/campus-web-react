@@ -32,7 +32,7 @@ export default function Navbar() {
           <img src={buyandsellIcon} alt="" id="services-image" />
           BuyandSell
         </div>
-        <img src={userIcon} alt="" id="user-profile-photo" />
+        <img src={userIcon} alt="" id="user-profile-photo" onClick={()=> navigate('/user/login')}/>
         {/* Login */}
       </p>
     </div>

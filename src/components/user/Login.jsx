@@ -6,11 +6,13 @@ export default function Login() {
         const otpWrapper = document.getElementById("otp-wrapper");
         document.getElementById('login-wrapper').style.display = "none";
         otpWrapper.style.display = "flex";
-        otpWrapper.style.animation = "slideIn 0.17s ease-in";
+        otpWrapper.style.animation = "slideIn 0.1s fade-in";
     }
     const handleBack=()=>{
         document.getElementById("otp-wrapper").style.display = "none";
-        document.getElementById('login-wrapper').style.display = "flex";
+        const loginwrapper = document.getElementById('login-wrapper');
+        loginwrapper.style.display = "flex";
+        loginwrapper.style.animation = "slideOut 0.1s fade-in"
     }
 
   return (

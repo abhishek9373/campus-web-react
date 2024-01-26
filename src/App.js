@@ -5,7 +5,7 @@ import Navbar from "./shared/components/Navbar";
 import Foodhub from "./components/foodhub/Foodhub";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Househub from "./components/househub/Househub";
-import Login from "./components/authentication/Login";
+import Login from "./components/user/Login";
 import Onboard from "./components/authentication/Onboard";
 import Pagenotfound from "./shared/components/Pagenotfound";
 // import { useForm } from "react-hook-form"

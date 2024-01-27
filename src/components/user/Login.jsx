@@ -9,10 +9,10 @@ export default function Login() {
         otpWrapper.style.animation = "slideIn 0.1s fade-in";
     }
     const handleBack=()=>{
-        document.getElementById("otp-wrapper").style.display = "none";
         const loginwrapper = document.getElementById('login-wrapper');
         loginwrapper.style.display = "flex";
         loginwrapper.style.animation = "slideOut 0.1s fade-in"
+        document.getElementById("otp-wrapper").style.display = "none";
     }
 
   return (

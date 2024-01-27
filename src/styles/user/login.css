@@ -68,6 +68,10 @@
   color: var(--dark);
 }
 
+.login-wrapper {
+  animation: slideOut 0.17s ease-out;
+}
+
 .otp-wrapper {
   display: none;
   padding: 20px;

@@ -33,6 +33,10 @@
   font-weight: 500;
 }
 
+#user-notifications{
+  height: 40px;
+}
+
 #user-profile-photo{
   height: 30px;
 }

@@ -5,6 +5,7 @@ import {
   buyandsellIcon,
   foodhubIcon,
   househubIcon,
+  notificationIcon,
   profileIcon,
   thaliImage1,
   userIcon,
@@ -32,6 +33,7 @@ export default function Navbar() {
           <img src={buyandsellIcon} alt="" id="services-image" />
           BuyandSell
         </div>
+        <img src={notificationIcon} alt="" id="user-notifications" onClick={()=> navigate('/user/profile')}/>
         <img src={userIcon} alt="" id="user-profile-photo" onClick={()=> navigate('/user/profile')}/>
         {/* Login */}
       </p>

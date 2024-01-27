@@ -34,7 +34,7 @@ export const searchIcon = require('../assets/icons/search.svg').default
 export const campus1Image = require('../assets/images/campus1.jpg')
 export const campus2Image = require('../assets/images/campus2.jpg')
 export const campus3Image = require('../assets/images/campus3.jpg')
-
+export const notificationIcon = require('../assets/icons/notification.png')
 export const error404Icon = require('../assets/icons/404-error.png')
 
 // user profile
@@ -43,3 +43,4 @@ export const activitiedIcon = require('../assets/icons/activity.png')
 export const settingsIcon = require('../assets/icons/settings.png')
 export const logoutIcon = require('../assets/icons/logout.png')
 export const editIcon = require('../assets/icons/edit-image.png')
+export const profilePicker = require('../assets/icons/image-picker.png')

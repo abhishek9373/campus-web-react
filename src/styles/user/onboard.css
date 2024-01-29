@@ -1,17 +1,18 @@
-.auth-container {
+.auth-container-onboard {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .wrapper {
+  .wrapper-onboard {
     height: 760px;
     width: 50vw;
     background-color: var(--primary);
     box-shadow: var(--dark) 0px 8px 24px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
     padding-top: 20px;
     color: var(--dark);

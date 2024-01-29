@@ -6,8 +6,6 @@ import {
   foodhubIcon,
   househubIcon,
   notificationIcon,
-  profileIcon,
-  thaliImage1,
   userIcon,
 } from "../../assets";
 
@@ -23,7 +21,7 @@ export default function Navbar() {
       <p className="menu logo" onClick={() => navigate("/")}>
         Campus
       </p>
-      <p className="menu right user-icon">
+      <div className="menu right user-icon">
         <span id="services-navitem">Services</span>
         <div id="services-hide-show">
           <img src={househubIcon} alt="" id="services-image" onClick={()=> { navigate('/househub'); hideServicesDropDown() } }/>
@@ -36,7 +34,7 @@ export default function Navbar() {
         <img src={notificationIcon} alt="" id="user-notifications" onClick={()=> navigate('/user/profile')}/>
         <img src={userIcon} alt="" id="user-profile-photo" onClick={()=> navigate('/user/profile')}/>
         {/* Login */}
-      </p>
+      </div>
     </div>
   );
 }

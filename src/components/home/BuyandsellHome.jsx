@@ -1,14 +1,16 @@
 import React from "react";
-import { bedImage, bookImage, laptopImage, profileIcon, userIcon } from "../../assets";
+import { bedImage, bookImage, laptopImage, profileIcon } from "../../assets";
 import "../../styles/home/buyandsell.css";
 import StarRatings from "react-star-ratings";
+import { useNavigate } from 'react-router-dom';
 
 export default function Buyandsell() {
+  const navigate = useNavigate();
   return (
     <>
       <div id="services-heading-2">
         <p className="left-text">Want to Buy or Sell Something?</p>
-        <p className="right-text">Discover</p>
+        <p className="right-text" onClick={()=>navigate('/buyandsell')}>Discover</p>
       </div>
 
       <div className="services-container">
@@ -22,7 +24,7 @@ export default function Buyandsell() {
                 <img src={profileIcon} alt="" />
               </p>
               <p id="user-name">John Smith</p>
-              <p className="star-rating">
+              <div className="star-rating">
                 <StarRatings
                   rating={3.5}
                   starRatedColor="red"
@@ -32,7 +34,7 @@ export default function Buyandsell() {
                   starDimension="17px"
                   starSpacing="4px"
                 />
-              </p>
+              </div>
             </div>
             <div className="thali-haeding">
               <p id="heading-text">
@@ -57,7 +59,7 @@ export default function Buyandsell() {
                 <img src={profileIcon} alt="" id="profile-icon" />
               </p>
               <p id="user-name">John Smith</p>
-              <p className="star-rating">
+              <div className="star-rating">
                 <StarRatings
                   rating={3.5}
                   starRatedColor="red"
@@ -67,7 +69,7 @@ export default function Buyandsell() {
                   starDimension="17px"
                   starSpacing="4px"
                 />
-              </p>
+              </div>
             </div>
             <div className="thali-haeding">
               <p id="heading-text">
@@ -92,7 +94,7 @@ export default function Buyandsell() {
                 <img src={profileIcon} alt="" id="profile-icon" />
               </p>
               <p id="user-name">John Smith</p>
-              <p className="star-rating">
+              <div className="star-rating">
                 <StarRatings
                   rating={3.5}
                   starRatedColor="red"
@@ -102,7 +104,7 @@ export default function Buyandsell() {
                   starDimension="17px"
                   starSpacing="4px"
                 />
-              </p>
+              </div>
             </div>
             <div className="thali-haeding">
               <p id="heading-text">

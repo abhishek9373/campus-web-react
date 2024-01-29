@@ -18,7 +18,7 @@
 }
 
 .filter-and-navbar-container {
-  background-color: var(--primary);
+  background-color: white;
   height: 250px;
   width: 70vw;
   border: 1px solid var(--dark);
@@ -32,15 +32,15 @@
   justify-content: space-around;
 }
 
-#nav-icon{
-    height: 26px;
-    filter: invert(100%);
+#nav-icon {
+  height: 26px;
+  filter: invert(100%);
 }
 
-#househub-hero-text{
-    color: #bb5959;
-    font-size: 24px;
-    font-weight: 500;
+#househub-hero-text {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 500;
 }
 .nav-option {
   background-color: var(--dark);
@@ -48,6 +48,7 @@
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
+  border-radius: 3rem;
 }
 
 .filter-section {
@@ -86,30 +87,25 @@ input {
   border-radius: 4px;
   background-color: var(--dark);
   color: white;
+  border-radius: 3rem;
 }
 
 .househub-listings-container-aligner {
   margin-top: 150px;
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
+  justify-content: center;
 }
 
-.recommended-flats{
-    display: flex;
-    flex-direction: column;
-    width: 20vw;
-    height: 85vh;
-    position: sticky;
-    top: 58px;
-    overflow: auto;
+.recommended-flats {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 85vh;
+  position: sticky;
+  top: 58px;
+  overflow: auto;
 }
-
-/* .recommended-listings{
-    position: sticky;
-    top: 58px;
-} */
 
 .househub-listings-container {
   width: 67vw;
@@ -131,7 +127,7 @@ input {
 }
 
 .property-date-up {
-  background-color: white;
+  background: white;
   padding: 6px;
   color: black;
 }
@@ -141,9 +137,9 @@ input {
   margin-left: 9px;
 }
 
-#scroll-down{
-    height: 25px;
-    cursor: pointer;
+#scroll-down {
+  height: 25px;
+  cursor: pointer;
 }
 
 .sort-image-down {
@@ -152,137 +148,162 @@ input {
 
 /* listing card */
 
-.househub-normal-listings{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.househub-normal-listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-.househub-listing-card{
-    display: flex;
-    background-color: var(--tertiary);
-    margin-bottom: 20px;
-    max-width: 500px;
-    border-radius: 5px;
+.househub-listing-card {
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 408px;
+  border-radius: 1rem;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.househub-flat-image{
-    width: 250px;
-    object-fit: cover;
-    object-position: center;
-    margin-right: 15px;
+.househub-listing-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 6px 10px 0px;
+  transform: scale(1.0111);
+  transition: transform 0.4s ease-in;
 }
 
-.househub-listing-info{
-    padding-bottom: 10px;
+.househub-flat-image {
+  width: 180px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 15px;
+  border-radius: 1rem;
 }
 
-#flat-title{
-    font-size: large;
-    color: black;
-    font-size: 18px;
+.househub-listing-info {
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
-#flat-price{
-    font-size: medium;
-    color: var(--dark);
+#flat-title {
+  font-size: large;
+  color: var(--dark);
+  font-size: 18px;
 }
 
-.househub-card-chip{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 10px;
+#flat-price {
+  font-size: medium;
+  color: var(--dark);
 }
 
-#chip{
-    background-color: var(--dark);
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 10px;
+.househub-card-chip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  font-size: 12px;
 }
 
-#owner-name{
-    font-size: 14px;
-    color: grey;
-    letter-spacing: 1px;
+#chip {
+  background-color: var(--dark);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
-#description{
-    letter-spacing: 0.6px;
-}
-.fetures-container{
-    font-size: 16px;
-}
-
-#feature{
-    margin-right: 5px;
-    height: 16px;
+#owner-name {
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
+#description {
+  letter-spacing: 0.6px;
+}
+.fetures-container {
+  font-size: 16px;
+}
+
+#feature {
+  margin-right: 5px;
+  height: 16px;
+}
 
 /* for recommended flat */
 
-
-
-.househub-recommended-listing-card{
-    display: flex;
-    background-color: var(--tertiary);
-    margin-bottom: 20px;
-    max-width: 300px;
-    height: 150px;
-    border-radius: 5px;
+.recommended-heading {
+  color: var(--dark);
+}
+.househub-recommended-listing-card {
+  display: flex;
+  margin-bottom: 20px;
+  max-width: 260px;
+  height: 135px;
+  border-radius: 0.7rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
-.househub-recommended-flat-image{
-    width: 150px;
-    object-fit: cover;
-    object-position: center;
-    margin-right: 5px;
+.househub-recommended-listing-card:hover{
+  transform: scale(1.0111);
+  transition: transform 0.4s ease-in;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 6px 10px 0px;
 }
 
-.househub-recommended-listing-info{
-    padding-bottom: 5px;
+.househub-recommended-flat-image {
+  width: 120px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 5px;
+  border-radius: 0.7rem;
 }
 
-#recommended-flat-title{
-    color: black;
-    font-size: 12px;
+.househub-recommended-listing-info {
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
-#recommended-flat-price{
-    font-size: 10px;
-    color: var(--dark);
+#recommended-flat-title {
+  margin-top: 6px;
+  color: var(--dark);
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.recommended-househub-card-chip{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 3px;
+#recommended-flat-price {
+  font-size: 10px;
+  color: var(--dark);
 }
 
-#recommended-chip{
-    background-color: var(--dark);
-    color: white;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-radius: 5px;
-    font-size: 8px;
+.recommended-househub-card-chip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3px;
+  gap: 2px;
 }
 
-#recommended-owner-name{
-    font-size: 12px;
-    color: grey;
+#recommended-chip {
+  background-color: var(--dark);
+  color: white;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  font-size: 8px;
+  padding: 3px;
 }
 
-#recommended-description{
-    font-size: 10px;
-    color: black;
-    font-weight: 500;
+#recommended-owner-name {
+  font-size: 12px;
+  color: grey;
+}
+
+#recommended-description {
+  font-size: 10px;
+  color: black;
+  font-weight: 500;
 }

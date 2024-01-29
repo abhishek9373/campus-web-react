@@ -4,7 +4,7 @@ import '../../styles/footer.css'
 export default function Footer() {
   return (
     <>
-      <div class="footer">
+      <div className="footer">
         <ul>
           <li>
             <a href="https://twitter.com/julesforrest">Twitter</a>

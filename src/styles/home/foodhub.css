@@ -16,27 +16,20 @@
   max-height: 300px;
   line-height: 17px;
   background-color: var(--tertiary);
-  border-radius: 6px;
-  /* padding: 20px; */
+  border-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  padding: 10px;
   margin-left: 20px;
   margin-bottom: 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-  color: var(--text);
-}
-
-.food-aligner {
-  display: flex;
-  justify-content: center;
+  color: var(--dark);
 }
 
 #food {
-  /* max-width: 150px; */
-  /* object-fit: cover; */
   width: 100%;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
-  /* margin-top: 15px; */
+  border-radius: 2rem;
 }
 
 .thali-haeding {
@@ -50,6 +43,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#heading-text:before{
+  content: '';
+  position: absolute;
+  margin-top: 26px;
+  width: 160px;
+  height: 1.5px;
+  background:#333;
+  transform: scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: right;
+  float: left;
+}
+
+#heading-text:hover::before{
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 #limited-or-unlimited {
@@ -88,4 +99,8 @@
 #mess-name {
   font-size: 13px;
   color: #d9984d;
+}
+
+.right-text{
+  cursor: pointer;
 }

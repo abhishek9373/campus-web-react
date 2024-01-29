@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
+  color: var(--dark);
 }
 
 /* todays special */
@@ -26,13 +27,16 @@
   justify-content: center;
   font-size: 12px;
   line-height: 17px;
-  background-color: var(--tertiary);
-  border-radius: 6px;
+  border-radius: 2rem;
   margin-left: 20px;
   margin-bottom: 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   color: var(--text);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.food-card-listings:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,rgba(0, 0, 0, 0.06) 0px 6px 10px 0px;
 }
 
 .foodlistings-thali-info {
@@ -45,8 +49,7 @@
 
 #food-listings {
   width: 100%;
-  border-top-right-radius: 6px;
-  border-top-left-radius: 6px;
+  border-radius: 2rem;
   margin-top: -3px;
 }
 
@@ -61,6 +64,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--dark);
 }
 
 #limited-or-unlimited {
@@ -85,15 +89,15 @@
 #thali-description {
   font-size: 10px;
   letter-spacing: 0.5px;
-  color: var(--dark);
   letter-spacing: 0.2cap;
   font-weight: 500;
+  color: var(--grey-text);
 }
 
 .serve-by {
   font-size: 12px;
   font-weight: 500;
-  color: var(-);
+  color: var(--grey-text);
 }
 
 #mess-name {

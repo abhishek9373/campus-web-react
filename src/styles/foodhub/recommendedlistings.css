@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
+    color: var(--dark);
   }
   
   /* todays special */
@@ -26,28 +27,33 @@
     justify-content: center;
     font-size: 12px;
     line-height: 17px;
-    background-color: var(--tertiary);
-    border-radius: 6px;
+    background-color: var(--primary);
+    border-radius: 2rem;
     margin-left: 20px;
     margin-bottom: 20px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
-      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    color: var(--text);
+    color: var(--dark);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+
+  }
+
+  .food-card-recommendation:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,rgba(0, 0, 0, 0.06) 0px 6px 10px 0px;
   }
   
   .recommendation-info {
     padding: 7px;
+    padding-left: 15px;
   }
   
   #food-recommendation {
     width: 100%;
-    border-top-right-radius: 6px;
-    border-top-left-radius: 6px;
+    border-radius: 2rem;
     margin-top: -3px;
   }
   
-  .thali-haeding {
-    margin-top: 5px;
+  .thali-heading {
+    margin-top: 10px;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
@@ -57,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--dark);
   }
   
   #limited-or-unlimited {
@@ -74,22 +81,22 @@
   .food-details {
     margin-top: 6px;
     margin-bottom: 30px;
-    padding-left: 12px;
+    padding-left: 18px;
     padding-right: 8px;
   }
   
-  #thali-description {
+  #thali-description-recommended {
     font-size: 10px;
     letter-spacing: 0.5px;
-    color: var(--dark);
+    color: var(--grey-text);
     letter-spacing: 0.2cap;
     font-weight: 500;
   }
   
-  .serve-by {
+  .serve-by-recommended {
     font-size: 12px;
     font-weight: 500;
-    color: var(-);
+    color: var(--grey-text);
   }
   
   #mess-name {

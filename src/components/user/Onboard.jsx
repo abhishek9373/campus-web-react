@@ -5,8 +5,8 @@ import { ImagePicker } from "react-file-picker";
 
 export default function Onboard() {
   return (
-    <div className="auth-container">
-      <div className="wrapper login-wrapper" id="login-wrapper">
+    <div className="auth-container-onboard">
+      <div className="wrapper-onboard login-wrapper" id="login-wrapper">
         <h3 id="onboard-heading">Welcome to Campus!</h3>
         <div className="profile-image-container">
           <ImagePicker

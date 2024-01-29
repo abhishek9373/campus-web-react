@@ -80,9 +80,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -101,9 +101,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -122,9 +122,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -143,9 +143,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -164,9 +164,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -185,9 +185,9 @@ export default function Househub() {
                   <p id="chip">Furnished</p>
                   <p id="chip">Boys</p>
                 </p>
-                <p id="description">
+                {/* <p id="description">
                   200m Away from SMT Kashibai Navale College.
-                </p>
+                </p> */}
                 <p id="owner-name">Owner: Mr. John Doe</p>
                 <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -214,7 +214,7 @@ export default function Househub() {
                   <p id="recommended-chip">Furnished</p>
                   <p id="recommended-chip">Boys</p>
                 </p>
-                <p id="recommended-description">200m Away from mg road</p>
+                {/* <p id="recommended-description">200m Away from mg road</p> */}
                 <p id="recommended-owner-name">Owner: Mr. John Doe</p>
                 {/* <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -237,7 +237,7 @@ export default function Househub() {
                   <p id="recommended-chip">Furnished</p>
                   <p id="recommended-chip">Boys</p>
                 </p>
-                <p id="recommended-description">200m Away from mg road</p>
+                {/* <p id="recommended-description">200m Away from mg road</p> */}
                 <p id="recommended-owner-name">Owner: Mr. John Doe</p>
                 {/* <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />
@@ -260,7 +260,7 @@ export default function Househub() {
                   <p id="recommended-chip">Furnished</p>
                   <p id="recommended-chip">Boys</p>
                 </p>
-                <p id="recommended-description">200m Away from mg road</p>
+                {/* <p id="recommended-description">200m Away from mg road</p> */}
                 <p id="recommended-owner-name">Owner: Mr. John Doe</p>
                 {/* <div className="fetures-container">
                   (1) <img src={bed} alt="" id="feature" />

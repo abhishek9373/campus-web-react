@@ -2,13 +2,15 @@ import React from "react";
 import "../../styles/home/househub.css";
 import { flatImage1, flatImage2 } from "../../assets";
 import StarRatings from "react-star-ratings";
+import { useNavigate } from 'react-router-dom';
 
 export default function Househub() {
+  const navigate = useNavigate();
   return (
     <>
       <div id="services-heading-2">
         <p className="left-text">Stay on Campus</p>
-        <p className="right-text">Discover</p>
+        <p className="right-text" onClick={()=> navigate('/househub')}>Discover</p>
       </div>
 
       <div className="services-container">

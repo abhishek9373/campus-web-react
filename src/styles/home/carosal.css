@@ -16,8 +16,11 @@
   height: 55vh;
   object-fit: cover;
   opacity: 0.9;
+  filter: blur(1.2px);
+  filter: grayscale(20%);
+  filter: contrast(80%);
 }
 
 .carosel-text {
-  color: var(--secondary);
+  color: var(--dark);
 }

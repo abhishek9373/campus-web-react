@@ -30,13 +30,24 @@
   --text: #333;
 } */
 
-:root {
+/* :root {
   --primary: #EEF5FF;
   --secondary: #B4D4FF;
   --tertiary: #86B6F6;
   --dark: #176B87;
   --text: #333;
   --light: #ffff;
+} */
+
+:root {
+  --primary: #f6f6f7;
+  --secondary: rgba(86, 204, 242, 0.5);
+  --tertiary: linear-gradient(180deg, #03a9f4, #012d61);
+  --dark: #012d61;
+  --text: white;
+  --light: #ffff;
+  --grey: rgba(119, 119, 119, 0.5);
+  --grey-text: rgb(105, 105, 105);
 }
 
 body {
@@ -47,6 +58,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary);
+  font-family: Colfax-Light;
+  font-weight: 500;
 }
 
 input::-webkit-outer-spin-button,
@@ -54,7 +67,6 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -73,4 +85,27 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background-color: #f1f1f1;
   border-radius: 6px;
+}
+
+/* declare all fonts here */
+
+@font-face {
+  font-family: "Colfax-Light";
+  src: url("./assets/fonts/Colfax-Light.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Colfax-Bold";
+  src: url("./assets/fonts/Colfax-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Colfax-Medium";
+  src: url("./assets/fonts/Colfax-Medium.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }

@@ -17,9 +17,12 @@
   padding-top: 15px;
   margin-right: 3rem;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px;
-  cursor: pointer;
-  color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;  color: var(--dark);
+}
+
+.service-card:hover{
+  transform: scale(1.04);
+  transition: transform 0.2s ease-in;
 }
 
 .service-image {

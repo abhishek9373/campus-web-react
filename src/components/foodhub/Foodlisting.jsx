@@ -6,14 +6,14 @@ import { thaliImage1, thaliImage2, thaliImage3 } from "../../assets";
 export default function Foodlisting() {
   return (
     <>
-      <div class="heading">
+      <div className="heading">
         <h5>Latest updated</h5>
       </div>
 
-      <div class="data-container">
-        <div class="todays-special-listing-container">
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+      <div className="data-container">
+        <div className="todays-special-listing-container">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage1} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -26,7 +26,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -35,7 +35,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon
@@ -43,8 +43,8 @@ export default function Foodlisting() {
             </div>
           </div>
 
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage2} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -57,7 +57,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -66,7 +66,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon
@@ -74,8 +74,8 @@ export default function Foodlisting() {
             </div>
           </div>
 
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage3} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -88,7 +88,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -97,7 +97,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon
@@ -105,8 +105,8 @@ export default function Foodlisting() {
             </div>
           </div>
 
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage1} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -119,7 +119,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -128,7 +128,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon
@@ -136,8 +136,8 @@ export default function Foodlisting() {
             </div>
           </div>
 
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage2} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -150,7 +150,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -159,7 +159,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon
@@ -167,8 +167,8 @@ export default function Foodlisting() {
             </div>
           </div>
 
-          <div class="food-card-listings">
-            <div class="food-aligner-listings">
+          <div className="food-card-listings">
+            <div className="food-aligner-listings">
               <img src={thaliImage3} alt="" id="food-listings" />
             </div>
             <div className="foodlistings-thali-info">
@@ -181,7 +181,7 @@ export default function Foodlisting() {
                 starDimension="17px"
                 starSpacing="4px"
               />
-              <div class="thali-haeding">
+              <div className="thali-haeding">
                 <p id="heading-text">
                   Special Dal Bati at 80Rs
                   <span id="limited-or-unlimited">Unlimited</span>
@@ -190,7 +190,7 @@ export default function Foodlisting() {
               <p id="thali-description">
                 In thali: Dal, Bati, 1 Laddu, Onion, Tomato, Cucumber etc.
               </p>
-              <p class="serve-by">
+              <p className="serve-by">
                 Serve by <span id="mess-name">Shivshree Mess</span> near sinhgad
                 law college <br />
                 hurry Up closing soon

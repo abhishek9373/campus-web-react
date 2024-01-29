@@ -1,29 +1,34 @@
 import "./App.css";
 import Footer from "./shared/components/Footer";
-import Home from "./components/home/Home";
-import Navbar from "./shared/components/Navbar";
-import Foodhub from "./components/foodhub/Foodhub";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Househub from "./components/househub/Househub";
-import Login from "./components/user/Login";
-import Onboard from "./components/user/Onboard";
-import Pagenotfound from "./shared/components/Pagenotfound";
-import Profile from "./components/user/Profile";
-// import { useForm } from "react-hook-form"
+import Navbar from "./shared/components/Navbar";
+import Loader from "./shared/components/Loader";
+const Home = lazy(() => import("./components/home/Home"));
+const Foodhub = lazy(() => import("./components/foodhub/Foodhub"));
+const Househub = lazy(() => import("./components/househub/Househub"));
+const Login = lazy(() => import("./components/user/Login"));
+const Onboard = lazy(() => import("./components/user/Onboard"));
+const Pagenotfound = lazy(() => import("./shared/components/Pagenotfound"));
+const Profile = lazy(() => import("./components/user/Profile"));
 function App() {
+
   return (
     <div className="app-container">
       <BrowserRouter>
         <Navbar className="navbar" />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/foodhub" element={<Foodhub />} />
-          <Route path="/househub" element={<Househub />} />
-          <Route path="/user/login" element={<Login />} />
-          <Route path="/user/onboard" element={<Onboard />} />
-          <Route path="/user/profile" element={<Profile />} />
-          <Route path="*" element={<Pagenotfound />} />
-        </Routes>
+        <Suspense fallback={<Loader/>}>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/foodhub" element={<Foodhub />} />
+            <Route path="/househub" element={<Househub />} />
+            <Route path="/user/login" element={<Login />} />
+            <Route path="/user/onboard" element={<Onboard />} />
+            <Route path="/user/profile" element={<Profile />} />
+            <Route path="*" element={<Pagenotfound />} />
+          </Routes>
+        </Suspense>
+
         <Footer />
       </BrowserRouter>
     </div>

@@ -6,7 +6,7 @@
     margin-bottom: 30px;
   }
   .wrapper-onboard {
-    height: 760px;
+    height: 790px;
     width: 50vw;
     background-color: var(--primary);
     box-shadow: var(--dark) 0px 8px 24px;
@@ -39,6 +39,27 @@
 }
 
 #onboard-heading{
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+
+.profile-text-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+
+.profile-info-card{
+  background-color: var(--dark);
+  color: white;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+}
+

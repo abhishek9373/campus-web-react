@@ -13,11 +13,23 @@ const Pagenotfound = lazy(() => import("./shared/components/Pagenotfound"));
 const Profile = lazy(() => import("./components/user/Profile"));
 function App() {
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const delay = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(delay);
+  }, []);
+
+
   return (
     <div className="app-container">
       <BrowserRouter>
         <Navbar className="navbar" />
         <Suspense fallback={<Loader/>}>
+          {loading ? (<Loader/>) :
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/foodhub" element={<Foodhub />} />
@@ -26,7 +38,7 @@ function App() {
             <Route path="/user/onboard" element={<Onboard />} />
             <Route path="/user/profile" element={<Profile />} />
             <Route path="*" element={<Pagenotfound />} />
-          </Routes>
+          </Routes>}
         </Suspense>
 
         <Footer />
